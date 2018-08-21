@@ -15,6 +15,6 @@ Add the following to your crontab:
 
     0 18 * * * /path/to/your/directory/update_script.sh
     
-Everyday at 6 o'clock, it will today's FOREX data to the file.
+Everyday at 6 o'clock, it will append today's FOREX data to the file.
 
 
