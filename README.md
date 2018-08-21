@@ -6,7 +6,8 @@ Historical exchange rates from the Euro to approximately 40 other currencies wer
 In the command line, use "touch data.txt" to create the file to store the rates. If you're on macOS, make sure you're using the Linux version of gdate and that you have python2.7 installed. Edit the end date of the script.sh file for today's date and have installed version 4 of BeautifulSoup.
 
 
-You need sudo privileges for this next step
+You need sudo privileges for this next step.
+
 To continously update your data.txt file, edit your crontab using:
 
     sudo crontab -e
